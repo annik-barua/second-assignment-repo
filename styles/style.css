@@ -1,0 +1,19 @@
+.navbar
+{display: flex;
+margin: 0 auto;
+text-align: center;
+justify-content: space-between;
+width: 1140px;
+cursor: pointer;}
+
+.logo{width: 135px;
+height:70px;}
+
+.navlinks{
+    display: flex;
+    gap: 25px;
+    text-decoration: none;
+    list-style: none;
+}
+#home{font-weight: bold;}
+#shop{color: #8987A1;}
