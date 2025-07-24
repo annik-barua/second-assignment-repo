@@ -4,7 +4,7 @@ margin: 0 auto;
 text-align: center;
 justify-content: space-between;
 width: 1140px;
-cursor: pointer;}
+}
 
 .logo{width: 135px;
 height:70px;}
@@ -14,6 +14,45 @@ height:70px;}
     gap: 25px;
     text-decoration: none;
     list-style: none;
+    cursor: pointer;
 }
 #home{font-weight: bold;}
 #shop{color: #8987A1;}
+
+/*main part*/
+/*banner*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.banner-elements{
+    width: 570px;
+    height: 290px;
+}
+.banner-image{width: 570px;
+               height: 295px;}
+
+
+  .banner
+         {display: flex;
+            justify-content: space-between;
+        margin: 0 auto;
+        width: 1140px;
+        margin-top: 200px;
+    }
+    .banner-elements{text-align: left;}
+    .banner-title{font-weight: bold;
+    font-size: 65px;}
+
+    .banner-text{font-size:16px ;
+                        color: #000000;}
+#flower{color:rgba(233, 90, 8, 1);}
